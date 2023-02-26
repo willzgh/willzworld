@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(16, 16, 17);
+  }
+
+.View_Count {
+    width: 549px;
+    margin: 0 auto;
+    margin-top: 300px;
+    font-size: 100px;
+    background:
+    linear-gradient(90deg, #0d9dd3, #0553ca);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    filter: grayscale(100%);
+    transition: filter 800ms;
+
+}
+
+.View_Count:hover {
+    filter: grayscale(0%);
+    cursor: default
+}
+
+.Views_Text {
+    text-align: center;
+    margin-top: -12px;
+    font-size: 40px;
+    background:
+    linear-gradient(90deg, #0d9dd3, #0553ca);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    filter: grayscale(100%);
+    transition: filter 800ms;
+
+}
+
+.Views_Text:hover {
+    filter: grayscale(0%);
+    cursor: default
+}
+
+.arrow {
+    display: grid;
+    margin:auto;
+    border: none;
+    font-size: 50px;
+    background:
+    linear-gradient(90deg, #0d9dd3, #0553ca);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    filter: grayscale(100%);
+    transition: filter 800ms;
+    transition: .2s ease-in-out 0s;
+
+}
+
+.arrow:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+    transform: scale(1.25);
+    }
+
+.arrow:active {
+    transform: scale(0.98);
+}
